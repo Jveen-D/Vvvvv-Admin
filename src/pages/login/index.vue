@@ -13,7 +13,6 @@ interface Data {
 
 interface SetupContext {
   attrs: Data
-  slots: Slots
   emit: (event: string, ...args: unknown[]) => void
 }
 
