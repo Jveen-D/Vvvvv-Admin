@@ -1,0 +1,27 @@
+{
+  "name": "vvvvv-Admin",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.2.0-beta.4",
+    "moment": "^2.29.1",
+    "vue": "^3.0.5",
+    "normalize.css": "^8.0.1",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.8",
+    "vue-tsc": "^0.0.24"
+  }
+}
